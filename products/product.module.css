@@ -1,0 +1,110 @@
+.productPage .discription h2 {
+  font-size: 26px;
+  letter-spacing: -0.9px;
+  @apply font-medium;
+}
+.productPage .discription p {
+  @apply font-light mt-4;
+  letter-spacing: 1px;
+}
+.productPage .discription strong {
+  font-weight: 700;
+}
+.productPage .discription p.proPrice {
+  font-size: 26px;
+  @apply text-primary font-semibold;
+}
+.productPage .discription a {
+  @apply text-primary underline hover:no-underline;
+}
+.productPage .inputGroup {
+  border: 1px solid #52b540;
+  @apply inline-block px-2 py-0 font-normal text-xl text-primary;
+}
+.productPage .inputGroup input {
+  border: 0px;
+  width: 30px;
+  @apply mx-1 text-center text-xl;
+}
+.productPage p.qtyTxt {
+  color: #4f4f4f;
+  @apply font-normal text-lg mb-1;
+}
+
+.btnGreen {
+  background: #fff;
+  border: 1px solid #52b540;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  @apply flex text-base font-medium rounded-full text-center text-primary px-8 pb-2 pt-3 mr-10 transition md:text-xl  md:px-16;
+}
+.btnGreen:hover {
+  background: #52b540;
+  box-shadow: 0px 4px 4px rgba(82, 181, 64, 0.25),
+    0px 4px 4px rgba(82, 181, 64, 0.25), 0px 4px 4px rgba(82, 181, 64, 0.5);
+  @apply text-white;
+}
+.btnGreen img {
+  @apply mr-2;
+}
+.btnGreen .cartHover {
+  display: none;
+}
+.btnGreen:hover .cart {
+  display: none;
+}
+.btnGreen:hover .cartHover {
+  display: block;
+}
+.shopPage .productWrap {
+  color: #787885;
+  border: 1px solid #52b540;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 25px 20px 30px;
+
+  @apply cursor-pointer transition;
+}
+.shopPage .productWrap:hover {
+  border: 1px solid #52b540;
+  box-shadow: 10px 10px 30px rgba(82, 181, 64, 0.25);
+}
+.shopPage .productWrap .ImgWrap {
+  width: 250px;
+  height: 347px !important;
+
+  @apply mx-auto h-80 object-cover;
+}
+.shopPage .productWrap {
+  max-width: 400px;
+  margin: 0px auto;
+}
+.shopPage .productWrap .productName {
+  letter-spacing: 1px;
+  @apply font-medium text-headingBlack;
+}
+
+.btnGreensm {
+  background: #fff;
+  border: 1px solid #52b540;
+  @apply flex text-lg font-normal rounded-full text-center text-primary px-8 pb-1 pt-2 transition;
+}
+.btnGreensm:hover {
+  background: #52b540;
+  box-shadow: 0px 4px 4px rgba(82, 181, 64, 0.25),
+    0px 4px 4px rgba(82, 181, 64, 0.25), 0px 4px 4px rgba(82, 181, 64, 0.5);
+  @apply text-white;
+}
+.btnGreensm img {
+  width: 25px;
+  @apply mr-2;
+}
+.btnGreensm .cartHover {
+  display: none;
+}
+.btnGreensm:hover .cart {
+  display: none;
+}
+.btnGreensm:hover .cartHover {
+  display: block;
+}

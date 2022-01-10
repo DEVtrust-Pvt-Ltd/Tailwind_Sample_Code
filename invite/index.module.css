@@ -1,0 +1,26 @@
+.buttonArrow:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-top: solid 9px #52b540;
+  border-left: solid 8px transparent;
+  border-right: solid 8px transparent;
+}
+
+.labelText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.input {
+  @apply px-6 py-4 border-borderGray shadow-inputShadow rounded-md form-input relative bg-white text-txt outline-none w-full;
+}
+
+
+
+
